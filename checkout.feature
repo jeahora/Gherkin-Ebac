@@ -11,7 +11,7 @@
             E a senha correta
             Então deve exdibir a tela de checkout
 
-            Cenário: Usuario ou senha inválida
+            Cenário: Autenticação invalida
             Quando eu digitar usuário
             E senha um deles estiver inválida
             Então deve exibir uma mensagem de alerta "usuário ou senha inválida "
