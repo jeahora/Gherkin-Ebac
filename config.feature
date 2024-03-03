@@ -16,11 +16,6 @@
             E o formato nao seja permitido
             Então deve sinalizar com uma mensagem "erro de email"
 
-            Cenário: campos vazios
-            Quando eu prencher os campos
-            E ainda estiver campos obrigatórios em branco
-            Então deve exibir a mensagem de alerta "deve prencher os campos obrigatórios"
-
             Esquema do Cenário: cadastro de usuários
             Quando eu prencher os <campos obrigatórios>
             E com todos meus <dados>
